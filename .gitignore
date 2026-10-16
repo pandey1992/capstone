@@ -1,0 +1,25 @@
+# Local package/runtime setup
+.venv/
+.local_packages/
+__pycache__/
+.ipynb_checkpoints/
+
+# Course data and environment configuration (do not publish)
+cap4_train_val.csv
+cap4_train_val.csv.txt
+cap4_test.csv
+cap4_test.csv.txt
+UAIS_vars.env
+UAIS_vars.env.txt
+.env
+.env.*
+!.env.example
+
+# Generated predictions and model artifacts
+submission.csv
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+
